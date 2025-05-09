@@ -21,7 +21,7 @@ Este projeto é uma aplicação web simples feita com **Angular**, que permite a
 
 ## 🚀 Tecnologias
 
-- [Angular 17+](https://angular.io/)
+- [Angular: 19.2.10](https://angular.io/)
 - TypeScript
 - HTML5
 - CSS3
