@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>Sistema de Ponto Eletrônico</h1>
+  
+    <button (click)="registrarPonto()">
+      Registrar {{ proximaBatida }}
+    </button>
+  
+    <table>
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Hora</th>
+          <th>Tipo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let batida of batidas">
+          <td>{{ batida.data }}</td>
+          <td>{{ batida.hora }}</td>
+          <td>{{ batida.tipo }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
