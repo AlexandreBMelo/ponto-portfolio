@@ -1,59 +1,92 @@
-# PontoPortfolio
+# 🕒 Registro de Ponto Online
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+Este projeto é uma aplicação web simples feita com **Angular**, que permite aos usuários registrarem entradas e saídas de forma rápida e visual. É ideal para estudo e prototipação de sistemas de ponto eletrônico com interface intuitiva.
 
-## Development server
+---
 
-To start a local development server, run:
+## 📸 Preview
 
-```bash
-ng serve
+![Preview](./screenshot.png)
+
+---
+
+## 🔧 Funcionalidades
+
+- Registrar ponto com alternância automática entre **Entrada** e **Saída**
+- Exibição de registros com **Data**, **Hora** e **Tipo**
+- Interface responsiva com layout moderno inspirado no **Figma**
+- Estilização em CSS personalizada com cabeçalho colorido e botão estilizado
+
+---
+
+## 🚀 Tecnologias
+
+- [Angular 17+](https://angular.io/)
+- TypeScript
+- HTML5
+- CSS3
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── app/
+│   ├── registro-ponto/
+│   │   ├── registro-ponto.component.ts
+│   │   ├── registro-ponto.component.html
+│   │   └── registro-ponto.component.css
+│   ├── app.component.ts
+│   ├── app.component.html
+│   └── app.config.ts
+├── main.ts
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## ▶️ Como Rodar
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/registro-ponto.git
+   cd registro-ponto
+   ```
 
-```bash
-ng generate component component-name
-```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   ```
 
-```bash
-ng generate --help
-```
+4. Acesse no navegador:
+   ```
+   http://localhost:4200
+   ```
 
-## Building
+---
 
-To build the project run:
+## 🎨 Design
 
-```bash
-ng build
-```
+O layout foi baseado em um protótipo feito no **Figma**, com foco em clareza e usabilidade. A interface tem:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Cabeçalho azul com avatar circular
+- Botão de ação centralizado
+- Tabela organizada para visualização dos registros
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📄 Licença
 
-```bash
-ng test
-```
+Este projeto é open-source e está sob a licença [MIT](LICENSE).
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## ✨ Autor
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desenvolvido por **Alexandre Melo**  
+📧 alexandre@email.com
