@@ -82,7 +82,7 @@ O layout foi baseado em um protótipo feito no **Figma**, com foco em clareza e 
 
 ## 📄 Licença
 
-Este projeto é open-source e está sob a licença [MIT](LICENSE).
+Este projeto é open-source, feito para fins de estudo.
 
 ---
 
