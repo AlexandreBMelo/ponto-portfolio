@@ -89,4 +89,4 @@ Este projeto é open-source, feito para fins de estudo.
 ## ✨ Autor
 
 Desenvolvido por **Alexandre Melo**  
-📧 alexandre@email.com
+📧 alemelo18lds@gmail.com
