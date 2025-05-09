@@ -1,37 +1,60 @@
+/* Header azul com avatar e título */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #00caff;
+  padding: 1.5rem;
+  color: white;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-right: 1rem;
+}
+
+/* Conteúdo centralizado */
 .container {
-    max-width: 600px;
-    margin: auto;
-    padding: 2rem;
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  button {
-    background-color: #1976d2;
-    color: white;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-bottom: 2rem;
-  }
-  
-  button:hover {
-    background-color: #1565c0;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-  }
-  
-  th {
-    background-color: #f1f1f1;
-  }
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Botão azul claro */
+button {
+  background-color: #00caff;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #00b0e0;
+}
+
+/* Tabela de registros */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
   
