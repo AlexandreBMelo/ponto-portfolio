@@ -11,4 +11,3 @@ import { RegistroPontoComponent } from './registro-ponto/registro-ponto.componen
 export class AppComponent {
   title = 'ponto-portfolio';
 }
-
